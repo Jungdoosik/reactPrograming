@@ -12,7 +12,6 @@ class ChildComponent extends Component {
       funcValue,
     } = this.props;
 
-    console.log(this.props.boolValue);
     return (
       <div>
         <span>불리언값 : {boolValue} </span><br></br>
