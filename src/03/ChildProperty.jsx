@@ -12,7 +12,7 @@ class ChildProperty extends Component {
 }
 
 ChildProperty.propTypes = {
-
+  children : PropTypes.node,
 };
 
 export default ChildProperty;
